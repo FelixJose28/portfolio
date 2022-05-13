@@ -1,5 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;500&family=Roboto+Slab:wght@300&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+  font-family: league;
+  --font: 1rem;
+  --bg-black-dark: rgb(25, 25, 25);
+  --bg-black-light: rgb(35, 35, 35);
+  --bg-blue: rgb(92, 129, 232);
+  --bg--light: rgb(255, 255, 255);
+}
+.header {
+  background-color: var(--bg-black-dark);
+}
+.header-list {
+  display: flex;
+  justify-content: flex-end;
+  height: 4rem;
+  align-items: center;
+}
+.header-list-item {
+  list-style: none;
+  color: white;
+  margin-right: 5rem;
 }
